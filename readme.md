@@ -1,10 +1,14 @@
-# a guide to learning how to build the web
+# a guide to learning how to build the web.
+
+this is a very opinionated guide for people who want to learn how to make things on the web &mdash; whether those things are websites, games, applications, or anything else that requires programming and design. with that being said, it's not definitive and definitely could stand some improvement and criticism.
+
+---
 
 ## contents
 
 ### inital setup
 
-1.  [introduction (what this guide is for, what you can do after reading it, etc)](#📋-introduction)
+1.  [introduction (what this guide is for, what you can do after reading it, etc)](#-introduction)
 1.  tools that you will need
 1.  optional software and hardware
 
@@ -21,8 +25,13 @@
 
 ### going forward
 
-1.  getting work in the field
+1.  working in the field
 
 ---
 
-## 📋 introduction
+#### 📋 introduction
+
+
+#### 🛠️ tooling
+
+#### 📡 optional
