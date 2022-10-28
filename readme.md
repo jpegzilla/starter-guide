@@ -6,6 +6,8 @@ this is a very opinionated guide for people who want to learn how to make things
 
 this is _**only**_ a starting point, a brief overview. you will  certainly need to do a lot of your own research. it's not definitive and definitely could stand some improvement and criticism.
 
+there are many keywords in this article that you might want to search for on the internet in order to learn more about them. I'll mark those `[like this]`.
+
 ---
 
 ## contents
@@ -54,7 +56,7 @@ you should download both [google chrome](https://www.google.com/chrome/) and [fi
 
 choosing a text editor is a matter of personal preference, but here are some that have been really good to me.
 
--   [**atom (my current editor).**](https://atom.io/) I picked this editor up many years ago and chose it because of its high extensibility. this means the editor itself is fully modifiable with user-created extensions. this editor can easily be turned into whatever you want it to be, from simple things like the font / color scheme to underlying functionality.
+-   [**atom (my current editor).**](https://atom.io/) I picked this editor up many years ago and chose it because of its high extensibility. this means the editor itself is fully modifiable with user-created `[software extensions]`. this editor can easily be turned into whatever you want it to be, from simple things like the font / color scheme to underlying functionality.
 
 ![atom editor's interface](./img/atom.png)
 
@@ -70,7 +72,9 @@ see also: [notepad++](https://notepad-plus-plus.org/downloads/), [sublime text](
 
 #### terminals
 
-a terminal (when combined with a shell) will allow you a higher level of control over your computer compared to the average windows user. one of these is required to use certain software, such as [command-line interfaces](https://en.wikipedia.org/wiki/Command-line_interface). you're going to need a terminal to use software like [npm](https://www.npmjs.com/), [node](https://nodejs.org/), and [git](https://git-scm.com/), just to name a few.
+a terminal (when combined with a `[command line interpreter]` or `[shell]` like `[bash]`) will allow you a higher level of control over your computer compared to the average windows user. one of these is required to use certain software, such as [command-line interfaces](https://en.wikipedia.org/wiki/Command-line_interface). you're going to need a terminal to use software like [npm](https://www.npmjs.com/), [node](https://nodejs.org/), and [git](https://git-scm.com/), just to name a few.
+
+essentially, a terminal is a window that is used to interact with the shell program. in the section on shells, you'll see some of these shells.
 
 -   [**tabby.**](https://tabby.sh/) this is the one I currently use. I find it to be very smooth, quick, and pretty (the most important trait). it's quite customizable, and comes pre-packed with like a million color schemes!
 
@@ -86,7 +90,7 @@ a terminal (when combined with a shell) will allow you a higher level of control
 
 #### shells
 
-a shell is essentially a program that you'll run within a terminal. the shell is the program that's actually interpreting and processing your commands. one of the most common ones is bash, and that's what I use. I've also listed fish because I think it's a nice piece of software.
+a shell is a program that you'll run within a terminal. this is the program that's actually interpreting and processing your commands. one of the most common ones is bash, and that's what I use. I've also listed fish because I think it's a nice piece of software.
 
 -   [**bash (cygwin).**](https://www.cygwin.com/packages/summary/bash.html) this is what I use.
 
@@ -94,9 +98,18 @@ a shell is essentially a program that you'll run within a terminal. the shell is
 
 -   [**fish.**](https://fishshell.com/) this one looks fun and comes with some nice autosuggestion features.
 
+here are some questions you should answer once you have a shell and a terminal of your choice:
+
+1.  where is the terminal installed on my computer (where is the executable file)?
+1.  where is the shell `[executable file]` installed?
+1.  how do I connect these two?
+1.  does typing commands into the terminal get a response from the shell?
+
+here's a good way to know your shell is working: open your terminal, and you should see a `[shell prompt]` appear. this will typically be your username on the computer with some other information, followed by a cursor where you can type.
+
 #### version control
 
-a version control system is a piece of software designed to track changes in a codebase. this will allow you to write code incrementally &mdash; meaning that if you break something, you can go back to a previous "checkpoint". it also is a huge benefit when you're working with multiple people on a team, because it helps you to see who did what within the code.
+a `[version control system]` is a piece of software designed to track changes in a codebase. this will allow you to write code incrementally &mdash; meaning that if you break something, you can go back to a previous "checkpoint". it also is a huge benefit when you're working with multiple people on a team, because it helps you to see who did what within the code.
 
 -   [**git.**](https://git-scm.com/) git is an extremely powerful version control system and the most ubiquitous item of its type.
 
@@ -116,7 +129,7 @@ this is something that's different for everyone. I'm the type of person to read 
 
 #### the shell
 
-one of the first things you should do with your shell and terminal after setting up is to learn how to navigate around your computer. learn how the filesystem is arranged. figure out how to move between folders, create / delete new folders and files, and how to edit them &mdash; all from the command line. after this step, you should be able to set up a new project from scratch using only shell commands.
+one of the first things you should do with your shell and terminal after setting up is to learn how to navigate around your computer. learn how the `[filesystem]` is arranged. figure out how to move between folders, create / delete new folders and files, and how to edit them &mdash; all from the `[command line]`. after this step, you should be able to set up a new project from scratch using only `[shell commands]`.
 
 resources:
 
@@ -125,20 +138,20 @@ resources:
 
 #### the editor
 
-typically, editors will have some sort of starting guide to help new users get used to the environment. for example, atom has its welcome screen (accessed by opening the software for the first time, or by typing `ctrl+shift+p` and searching for `welcome: show`). here's a basic exercise you can do when you first open up a new editor &mdash; answer these questions.
+typically, editors will have some sort of starting guide to help new users get used to the `[development environment]`. for example, atom has its welcome screen (accessed by opening the software for the first time, or by typing `ctrl+shift+p` and searching for `welcome: show`). here's a basic exercise you can do when you first open up a new editor &mdash; answer these questions.
 
-1.  how do I create a new file? is there a graphical menu? a key combination?
+1.  how do I create a new file? is there a `[graphical menu]`? a `[key combination]`?
 1.  how do I delete the file from within the editor?
 1.  is there a way to see a list of currently opened files?
 1.  how do I switch between files? can I work on two or more files in parallel?
 1.  what kind of extensions are available to me? how can I increase the functionality of the editor to better suit my needs?
 1.  does the editor save my settings so I can pick up where I left off after closing it?
 
-those are just some basic questions that I think about when trying a new editor. you can try these, and along the way you'll probably think of some questions of your own.
+those are just some basic questions that I think about when trying a new editor. you can try these, and along the way you'll probably think of some questions of your own. use a search engine to answer them!
 
 ### writing some code
 
-at this point you're ready to get into the actual work. now that you're a little familiar with how to use your editor and your terminal, your two primary tools, you can start to write some code. but how do you learn programming languages? here are some good resources for learning the most common programming languages used for web development:
+at this point you're ready to get into a beginner project. now that you're a little familiar with how to use your editor and your terminal, your two primary tools, you can start to write some code. but how do you learn `[programming languages]`? here are some good resources for learning the most common programming languages used for web development:
 
 1.  [**codewars.**](https://www.codewars.com/) create an account here and practice writing at least javascript. javascript is the primary scripting language used on the web, so it's critical knowledge. it wouldn't hurt to also practice some other languages as well! any language will improve your programming skills in some way.
 1.  [**mdn's _getting started with the web_.**](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) this is an excellent guide on how to use tools to make things on the web. I highly recommend going through this in great detail. set aside a couple of hours.
@@ -150,7 +163,7 @@ at this point you're ready to get into the actual work. now that you're a little
 
 ### first projects
 
-so you're familiar with your tools, you know a little bit about your languages &mdash; now, what should you make? I have ideas on how to decide what is a good or bad thing to make in the way of pietro righi riva's [_rejecta_](https://actofplay.com/rejecta/) and my own [_thesis_](https://github.com/jpegzilla/thesis). with some guidelines in place, the trickies part of the process is finding a problem you want to solve. I think the best software arises from the developers own needs. for example, tim berners-lee invented the internet as we know it today because he saw a need for a way for scientists to share information.
+so you're familiar with your tools, you know a little bit about your languages &mdash; now, what should you make? I have ideas on how to decide what is a good or bad thing to make in the way of pietro righi riva's [_rejecta_](https://actofplay.com/rejecta/) and my own [_thesis_](https://github.com/jpegzilla/thesis). with some guidelines in place, the trickiest part of the process is finding a problem you want to solve. I think the best software arises from the developers own needs. for example, tim berners-lee invented the internet as we know it today because he saw a need for a way for scientists to share information.
 
 of course, you don't have to have some kind of revolutionary idea - maybe you just need an app you can use to manage your d&d game, or a website to serve as your photography portfolio. no matter what it is, though, the idea is up to you.
 
