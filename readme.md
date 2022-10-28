@@ -1,6 +1,10 @@
 # a guide to learning how to build the web.
 
-this is a very opinionated guide for people who want to learn how to make things on the web &mdash; whether those things are websites, games, applications, or anything else that requires programming and design. with that being said, it's not definitive and definitely could stand some improvement and criticism.
+my friends often ask me to teach them to do what I do. I don't want to, because I'm not very good at teaching. but I am good at writing documentation, and this is kind of like that!
+
+this is a very opinionated guide for people who want to learn how to make things on the web &mdash; whether those things are websites, games, applications, or anything else that requires programming and design.
+
+this is _**only**_ a starting point, a brief overview. you will  certainly need to do a lot of your own research. it's not definitive and definitely could stand some improvement and criticism.
 
 ---
 
@@ -34,7 +38,9 @@ this is a very opinionated guide for people who want to learn how to make things
 
 ### introduction
 
-this guide is not a comprehensive list, nor is it a full course in web development. it's simply a starting point &mdash; it will point you to a list of resources that you should take advantage of. this will supplement your independent learning, hopefully allowing you to learn new techniques and technologies more quickly.
+again, this guide is not a comprehensive list, nor is it a full course in web development. it will point you to a list of resources that you should take advantage of. this will supplement your independent learning, hopefully allowing you to learn new techniques and technologies more quickly.
+
+**important:** if you don't understand a term, or don't understand how to do something in this guide, look it up!! there are tutorials for things even as simple as installing software. don't sit in the dark, look for the information! it is out there!
 
 this guide is aimed primarily at windows users, because that's what I'm most familiar with.
 
@@ -66,17 +72,21 @@ see also: [notepad++](https://notepad-plus-plus.org/downloads/), [sublime text](
 
 a terminal (when combined with a shell) will allow you a higher level of control over your computer compared to the average windows user. one of these is required to use certain software, such as [command-line interfaces](https://en.wikipedia.org/wiki/Command-line_interface). you're going to need a terminal to use software like [npm](https://www.npmjs.com/), [node](https://nodejs.org/), and [git](https://git-scm.com/), just to name a few.
 
--   [**windows terminal.**](https://www.microsoft.com/store/apps/9n0dx20hk701) this is the one I currently use. it's developed by microsoft for windows, so it actually works very very smoothly.
+-   [**tabby.**](https://tabby.sh/) this is the one I currently use. I find it to be very smooth, quick, and pretty (the most important trait). it's quite customizable, and comes pre-packed with like a million color schemes!
+
+![bash running on tabby](./img/bash-tabby.png)
+
+-   [**windows terminal.**](https://www.microsoft.com/store/apps/9n0dx20hk701) this is a nice one. it's developed by microsoft for windows, so it actually works very very smoothly, and is easy to install.
 
 ![bash running on windows terminal](./img/bash-windows-terminal.png)
 
--   [**cmder.**](https://github.com/cmderdev/cmder/releases) I used to use this one before windows terminal came out and even a little bit afterward. it's pretty good, it's just not pretty-looking enough for my purposes.
+-   [**cmder.**](https://github.com/cmderdev/cmder/releases) I used to use this one before windows terminal came out and even a little bit afterward. it's highly customizable, and I really valued the ability to save very specific panel layouts and configurations to quickly set up a workspace. it's just not pretty-looking enough for my purposes.
 
 ![bash running on cmder](./img/bash-cmder.png)
 
 #### shells
 
-a shell is essentially a program that you'll run within a terminal. the shell is the program that's actually interpreting and processiong your commands. one of the most common ones is bash, and that's what I use. I've also listed fish because I think it's a nice piece of software.
+a shell is essentially a program that you'll run within a terminal. the shell is the program that's actually interpreting and processing your commands. one of the most common ones is bash, and that's what I use. I've also listed fish because I think it's a nice piece of software.
 
 -   [**bash (cygwin).**](https://www.cygwin.com/packages/summary/bash.html) this is what I use.
 
